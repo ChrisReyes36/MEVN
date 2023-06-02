@@ -1,5 +1,5 @@
 import axios from "axios";
-import { body } from "express-validator";
+import { body, param } from "express-validator";
 import { validationResultExpress } from "./validationResultExpress.js";
 
 export const paramLinkValidator = [
