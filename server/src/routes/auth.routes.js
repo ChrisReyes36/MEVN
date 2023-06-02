@@ -1,5 +1,4 @@
 import { Router } from "express";
-import { body } from "express-validator";
 import { register, login } from "../controllers/auth.controller.js";
 import {
   bodyLoginValidator,
